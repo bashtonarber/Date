@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Date
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            DateTime dt = DateTime.Now;
+            Console.Write(dt.ToString("dddd" + " "));
+            Console.Write(dt.ToString("m") + ", "
+                        + dt.ToString("t"));
+
+            Console.ReadLine();
+        }
+    }
+}
